@@ -1,0 +1,9 @@
+build/*
+dist/*
+*.mp4
+*__pycache__*
+*/frontend/build/*
+*/frontend/node_modules/*
+*.egg-info
+*.DS_store*
+*package-lock.json
