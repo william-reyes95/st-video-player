@@ -14,7 +14,7 @@ else:
     _component_func = components.declare_component("st_video_player", path=build_dir)
 
 
-def st_video_player(videoBytes, height, key=None):
-    component_value = _component_func(videoBytes=videoBytes, height=height, key=key, default=0)
+def st_video_player(videoBytes, width, height, key=None):
+    component_value = _component_func(videoBytes=videoBytes, width=width, height=height, key=key, default=0)
     
     return component_value

@@ -12,4 +12,4 @@ mp4_bytes = read_mp4_as_bytes(mp4_file_path)
 video_form = st.container()    
 video, data = video_form.columns([3, 1])
 with video:
-    st_video_player(videoBytes=mp4_bytes, height=300)
+    st_video_player(videoBytes=mp4_bytes, width=500, height=325)

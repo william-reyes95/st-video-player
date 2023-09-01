@@ -7,7 +7,7 @@ long_description = (this_directory / "README.md").read_text()
 
 setuptools.setup(
     name="st_video_player",
-    version="0.0.6",
+    version="0.0.7",
     author="William Reyes",
     author_email="william.reyes@mlse.com",
     description="Streamlit component that allows you to play videos from bytes",
